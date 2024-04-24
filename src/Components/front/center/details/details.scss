@@ -1,0 +1,32 @@
+.detailsSection{
+    padding: .5rem 1rem;
+    .education{
+        padding: 0rem 1rem 0.5rem;
+        background: linear-gradient(90deg, #5b5b68 100%, #c6c6d4 100%);
+        box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+        margin-bottom: 1rem;
+        .degreeName{
+            display: flex;
+            width: 50%;
+            justify-content: space-between;
+            align-items: center;
+            h4{
+                font-size: 1.3rem;
+                font-weight: 500;
+                color: #ffc107;
+                margin-top: 0.2rem;
+            }
+            h5{
+                font-weight: 500;
+                font-size: 1.2rem;
+                margin-top: 1rem;
+            }
+        }
+        .clgName{
+            margin-top: -2rem;
+        }
+        span{
+            color: #ffc107;
+        }
+    }
+}

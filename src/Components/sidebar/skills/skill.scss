@@ -1,0 +1,13 @@
+.skillSection {
+    .skill{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .skillName,.percent{
+        font-size: .8rem;
+    }
+    padding: 0rem 1rem ;
+    .progressBar {
+    }
+}

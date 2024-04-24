@@ -1,0 +1,14 @@
+.rightSideSection{
+    background-color: #20202a;
+    height: calc(100vh - 30px);
+    .icon{
+        a{
+            display: flex;
+            justify-content: center;
+        }
+        img{
+            width: 70%;
+            margin: 1rem 0rem;
+        }
+    }
+}

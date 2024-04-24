@@ -1,0 +1,13 @@
+.frontSection{
+    background-color: #8c8c8e;
+    color: white;
+    height: calc(100vh - 30px);
+    display: flex;
+    width: 100%;
+    .centerArea{
+        width: 95%;
+    }
+    .rightArea{
+        width: 5%;
+    }
+}
