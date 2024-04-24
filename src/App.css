@@ -1,9 +1,12 @@
 .App{
     background-color: black;
-    height: 100vh;
+    height: 98vh;
     color: white;
     overflow: hidden;
     padding: 1rem;
     display: grid;
     grid-template-columns: 3fr 9fr;
 }
+.App::-webkit-scrollbar {
+    display: none;
+  }

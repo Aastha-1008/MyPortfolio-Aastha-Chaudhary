@@ -1,32 +1,114 @@
-.detailsSection{
-    padding: .5rem 1rem;
-    .education{
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+.detailsSection {
+    padding: 3rem 1rem;
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    row-gap: 20px;
+    column-gap: 7%;
+
+    h3 {
+        font-size: 2rem;
+        font-family: "Sedan", serif;
+        letter-spacing: .1rem;
+    }
+
+    .block {
         padding: 0rem 1rem 0.5rem;
-        background: linear-gradient(90deg, #5b5b68 100%, #c6c6d4 100%);
-        box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
-        margin-bottom: 1rem;
-        .degreeName{
-            display: flex;
-            width: 50%;
-            justify-content: space-between;
-            align-items: center;
-            h4{
-                font-size: 1.3rem;
-                font-weight: 500;
+    }
+
+    .inLine {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    span {
+        color: #ffc107;
+        font-size: 1.1rem;
+        letter-spacing: .1rem;
+        font-weight: 600;
+    }
+    .data{
+        padding-top: 3rem;
+    }
+    .eduImg{
+        display: flex;
+        justify-content: center;
+    }
+    .educationSection .education {
+        animation: slideright 1s linear 0s 1;
+        margin-bottom: 3rem;
+        padding: 0rem 1rem 0.5rem;
+        border: 1px solid  gray;
+        border-radius: 10px;
+        @keyframes slideright {
+            0% {
+                transform: translateX(-1000px);
+            }
+
+            100% {
+                transform: translateX(0px);
+            }
+
+        }
+
+        .degreeName {
+
+            h4 {
+                font-size: 1.4rem;
+                font-weight: 700;
                 color: #ffc107;
                 margin-top: 0.2rem;
             }
-            h5{
+
+            h5 {
                 font-weight: 500;
                 font-size: 1.2rem;
                 margin-top: 1rem;
             }
         }
-        .clgName{
+
+        .clgName {
             margin-top: -2rem;
         }
-        span{
-            color: #ffc107;
+    }
+
+    .experienceSection {
+        animation: slideleft 1s linear 0s 1;
+
+        @keyframes slideleft {
+            0% {
+                transform: translateX(1000px);
+            }
+
+            100% {
+                transform: translateX(0px);
+            }
+        }
+
+        .experience {
+            border-bottom: 1px solid gray;
+            h4{
+                font-size: 1.4rem;
+                color: #ffc107;
+            }
+            p{
+                font-size: 1.2rem;
+            }
+            .task{
+                margin-top: -3rem;
+                h5{
+                    font-size: 1.3rem;
+                    text-decoration: underline;
+                }
+                ul{
+                    margin-top: -1rem;
+                    li{
+                        margin-bottom: .5rem;
+                    }
+                }
+            }
+            
         }
     }
 }

@@ -1,13 +1,16 @@
 .frontSection{
-    background-color: #8c8c8e;
     color: white;
     height: calc(100vh - 30px);
     display: flex;
     width: 100%;
+    overflow-y: scroll;
     .centerArea{
-        width: 95%;
+        width: 97%;
     }
     .rightArea{
-        width: 5%;
+        width: 0%;
     }
 }
+.frontSection::-webkit-scrollbar {
+    display: none;
+  }
