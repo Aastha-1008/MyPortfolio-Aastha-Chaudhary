@@ -62,7 +62,14 @@ const Profile = () => {
                 </div>
             </div>
             <div className='projectSection'>
-                <Link to="/project" >Project</Link>
+                <div className='tagline'>
+                    <h3>
+                        Bringing Ideas to Life:<br/> Explore My Projects <span> &#8605;</span>
+                    </h3>
+                </div>
+                <div className="project">
+                    <Link to="/project" ><h3>Project</h3></Link>
+                </div>
             </div>
         </div>
     );
