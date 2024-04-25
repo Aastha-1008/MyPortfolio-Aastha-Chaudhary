@@ -7,6 +7,10 @@ import planning from '../../../../Images/planning.PNG';
 import golfChallenge from '../../../../Images/golfChallenge.PNG';
 import cxloyalty from '../../../../Images/cxloyalty.PNG';
 import mapty from '../../../../Images/mapty.PNG';
+import shopify from '../../../../Images/shopify.png';
+import trafficRacerGame from '../../../../Images/trafficRacerGame.png';
+import  wordSearch from '../../../../Images/wordSearch.png';
+import placementPortal from '../../../../Images/placementPortal.png';
 
 const MyWork = () => {
     return (
@@ -87,12 +91,14 @@ const MyWork = () => {
             </div>
             <div className='websiteProjects'>
                 <h4>Website :- </h4>
-                <h5>Tech Stack :- <span>HTML , CSS , JavaScript , ReactJS</span></h5>
+                <h5>Tech Stack :- <span>HTML , CSS , JavaScript, jQuery , ReactJS</span></h5>
                 <div className='projectContainer'>
                     <div className='project'>
                         <div className='thumbnail'>
                             <img src={cxloyalty} alt="thumbnail" />
                         </div>
+                        <p>CxLoyalty Website</p>
+                        <p>Code Link : <a href="https://github.com/Aastha-1008/CSLoyaltyWebsite">🔗</a></p>
                         <div className='content'>
                             <a href="https://csloyalty.netlify.app/" >
                                 <button className='button'>
@@ -105,6 +111,8 @@ const MyWork = () => {
                         <div className='thumbnail'>
                             <img src={mapty} alt="thumbnail" />
                         </div>
+                        <p>Mapty</p>
+                        <p>Code Link : <a href="https://github.com/Aastha-1008/Mapty-Activity-Updator">🔗</a></p>
                         <div className='content'>
                             <a href="https://aastha-1008.github.io/Mapty-Activity-Updator/">
                                 <button className='button'>
@@ -115,10 +123,12 @@ const MyWork = () => {
                     </div>
                     <div className='project'>
                         <div className='thumbnail'>
-                            <img src={procure} alt="thumbnail" />
+                            <img src={shopify} alt="thumbnail" />
                         </div>
+                        <p>Shopping Website</p>
+                        <p>Code Link : <a href="https://github.com/Aastha-1008/shoppingWebsite">🔗</a></p>
                         <div className='content'>
-                            <a href="https://bespoke.verve-management.com/procore-smart-build-forum-bridging-the-gap-between-construction-and-technology-riyadh/">
+                            <a href="https://shopyourfavouriteitem.netlify.app/">
                                 <button className='button'>
                                     Visit
                                 </button>
@@ -130,10 +140,12 @@ const MyWork = () => {
                 <div className='projectContainer'>
                     <div className='project'>
                         <div className='thumbnail'>
-                            <img src={planning} alt="thumbnail" />
+                            <img src={trafficRacerGame} alt="thumbnail" />
                         </div>
+                        <p>Traffic Racer Game</p>
+                        <p>Code Link : <a href="https://github.com/Aastha-1008/WordSearchGame">🔗</a></p>
                         <div className='content'>
-                            <a href="https://bespoke.verve-management.com/how-to-leverage-intelligent-planning-for-success-board-international-riyadh/" >
+                            <a href="https://trafficracergame.netlify.app/" >
                                 <button className='button'>
                                     Visit
                                 </button>
@@ -142,10 +154,12 @@ const MyWork = () => {
                     </div>
                     <div className='project'>
                         <div className='thumbnail'>
-                            <img src={golfChallenge} alt="thumbnail" />
+                            <img src={wordSearch} alt="thumbnail" />
                         </div>
+                        <p>Word Search Game</p>
+                        <p>Code Link : <a href="https://github.com/Aastha-1008/WordSearchGame">🔗</a></p>
                         <div className='content'>
-                            <a href="https://vervecorporatechallenge.vmtestingwebsites.com/">
+                            <a href="https://word-searchgame.netlify.app/">
                                 <button className='button'>
                                     Visit
                                 </button>
@@ -153,7 +167,18 @@ const MyWork = () => {
                         </div>
                     </div>
                     <div className='project'>
-                        
+                        <div className='thumbnail'>
+                            <img src={placementPortal} alt="thumbnail" />
+                        </div>
+                        <p>Placement Portal</p>
+                        <p>Code Link : <a href="https://github.com/Aastha-1008/Portal">🔗</a></p>
+                        <div className='content'>
+                            <a href="https://collegeplacementportal.netlify.app/">
+                                <button className='button'>
+                                    Visit
+                                </button>
+                            </a>
+                        </div>
                     </div>
 
                 </div>
