@@ -6,8 +6,9 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            width: 40%;
             img{
-                width: 70%;
+                width: 60%;
             }
         }
     }
@@ -20,15 +21,18 @@
     }
 
     .certificates {
-
+        width: 60%;
+        .certificate{
+            animation: slideleft 1s linear 0s 1;
+        }
         .certificate,
         .platform {
             display: flex;
             flex-direction: row;
             align-items: center;
-            font-size: 1.1rem;
         }
         .certificateName{
+            width: 80%;
             background-color: white;
             color: black;
             padding: 0rem 1rem;
@@ -36,13 +40,22 @@
             margin: 1rem 0rem;
         }
         .platform{
+            width: 20%;
             background-color: #cc7722;
-            padding: 0.2rem 1rem;
+            padding: 0.1rem 1rem;
         }
 
         img {
             margin-left: 1rem;
             width: 20%;
         }
+    }
+    .c1{
+        margin-left: -6rem;
+        margin-right: 6rem;
+    }
+    .c2{
+        margin-left: -3rem;
+        margin-right: 3rem;
     }
 }

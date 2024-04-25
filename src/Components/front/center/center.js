@@ -1,16 +1,18 @@
-import Hero from './Hero/hero';
+import Main from './Main';
 import './center.scss';
-import Certificate from './certificate/certificate';
-import Details from './details/details';
-import Profile from './profile/profile';
+import MyWork from './myWork/myWork';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 
 const Center = () => {
-    return(
+    return (
         <div className='centerSection'>
-            <Hero/>
-            <Profile/>
-            <Details/>
-            <Certificate/>
+            <Router>
+                <Routes>
+                    <Route exact path = "/" element ={<Main/>}/>
+                    <Route exact path="/project" element={<MyWork />} />
+                </Routes>
+            </Router>
         </div>
     );
 }
