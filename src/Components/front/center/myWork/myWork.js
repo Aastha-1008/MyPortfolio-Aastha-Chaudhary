@@ -136,20 +136,7 @@ const MyWork = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='project'>
-                        <div className='thumbnail'>
-                            <img src={shopify} alt="thumbnail" />
-                        </div>
-                        <p>Shopping Website</p>
-                        <p>Code Link : <a href="https://github.com/Aastha-1008/shoppingWebsite">🔗</a></p>
-                        <div className='content'>
-                            <a href="https://shopyourfavouriteitem.netlify.app/">
-                                <button className='button'>
-                                    Visit
-                                </button>
-                            </a>
-                        </div>
-                    </div>
+
 
                 </div>
                 <div className='projectContainer'>
@@ -196,6 +183,22 @@ const MyWork = () => {
                         </div>
                     </div>
 
+                </div>
+                <div className='projectContainer'>
+                    <div className='project'>
+                        <div className='thumbnail'>
+                            <img src={shopify} alt="thumbnail" />
+                        </div>
+                        <p>Shopping Website</p>
+                        <p>Code Link : <a href="https://github.com/Aastha-1008/shoppingWebsite">🔗</a></p>
+                        <div className='content'>
+                            <a href="https://shopyourfavouriteitem.netlify.app/">
+                                <button className='button'>
+                                    Visit
+                                </button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
             </div>
