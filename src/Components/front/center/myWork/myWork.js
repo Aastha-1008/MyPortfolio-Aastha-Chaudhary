@@ -7,9 +7,10 @@ import planning from '../../../../Images/planning.PNG';
 import golfChallenge from '../../../../Images/golfChallenge.PNG';
 import cxloyalty from '../../../../Images/cxloyalty.PNG';
 import mapty from '../../../../Images/mapty.PNG';
+import movix from '../../../../Images/movix.png';
 import shopify from '../../../../Images/shopify.png';
 import trafficRacerGame from '../../../../Images/trafficRacerGame.png';
-import  wordSearch from '../../../../Images/wordSearch.png';
+import wordSearch from '../../../../Images/wordSearch.png';
 import placementPortal from '../../../../Images/placementPortal.png';
 
 const MyWork = () => {
@@ -83,7 +84,7 @@ const MyWork = () => {
                         </div>
                     </div>
                     <div className='project'>
-                        
+
                     </div>
 
                 </div>
@@ -93,6 +94,20 @@ const MyWork = () => {
                 <h4>Website :- </h4>
                 <h5>Tech Stack :- <span>HTML , CSS , JavaScript, jQuery , ReactJS</span></h5>
                 <div className='projectContainer'>
+                    <div className='project'>
+                        <div className='thumbnail'>
+                            <img src={movix} alt="thumbnail" />
+                        </div>
+                        <p>Movix Website</p>
+                        <p>Code Link : <a href="https://github.com/Aastha-1008/Movix-website">🔗</a></p>
+                        <div className='content'>
+                            <a href="https://websitemovix-qsmafahnf-movixs-projects-1edfa74f.vercel.app/explore/movie">
+                                <button className='button'>
+                                    Visit
+                                </button>
+                            </a>
+                        </div>
+                    </div>
                     <div className='project'>
                         <div className='thumbnail'>
                             <img src={cxloyalty} alt="thumbnail" />
