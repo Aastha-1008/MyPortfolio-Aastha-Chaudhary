@@ -2,7 +2,6 @@ import './myWork.scss';
 import wordpressIndo from '../../../../Images/wordpressIndowomen.PNG';
 import cxloyaltymena from '../../../../Images/cxloyaltymena.PNG';
 import procure from '../../../../Images/Procore.jpg';
-import laptop from '../../../../Images/laptop.png';
 import planning from '../../../../Images/planning.PNG';
 import golfChallenge from '../../../../Images/golfChallenge.PNG';
 import cxloyalty from '../../../../Images/cxloyalty.PNG';
@@ -18,7 +17,7 @@ const MyWork = () => {
         <div className='myWorkSection'>
             <h3>Projects</h3>
             <div className='wordpressProjects'>
-                <h4>Wordpress Project :- </h4>
+                <h4>1 ) Wordpress Project </h4>
                 <div className='projectContainer'>
                     <div className='project'>
                         <div className='thumbnail'>
@@ -58,36 +57,10 @@ const MyWork = () => {
                     </div>
 
                 </div>
-                <div className='projectContainer'>
-                    <div className='project'>
-                        <div className='thumbnail'>
-                            <img src={planning} alt="thumbnail" />
-                        </div>
-                        <div className='content'>
-                            <a href="https://bespoke.verve-management.com/how-to-leverage-intelligent-planning-for-success-board-international-riyadh/" >
-                                <button className='button'>
-                                    Visit
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                    <div className='project'>
-                        <div className='thumbnail'>
-                            <img src={golfChallenge} alt="thumbnail" />
-                        </div>
-                        <div className='content'>
-                            <a href="https://vervecorporatechallenge.vmtestingwebsites.com/">
-                                <button className='button'>
-                                    Visit
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                    <div className='project'>
-
-                    </div>
-
+                <div className="exploreMoreBtn">
+                    <h5><a href="project/wordpress"> Explore More <span style={{color:'black'}}> &#8605;</span> </a></h5>
                 </div>
+                
 
             </div>
             <div className='websiteProjects'>

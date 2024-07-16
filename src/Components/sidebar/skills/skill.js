@@ -154,7 +154,7 @@ const Skill = () => {
             <div className='progressBar'>
                 <svg viewBox='0 0 100 1.72' preserveAspectRatio='none' style={{width: '100%', height: '100%'}}>
                     <path d = "M 0 , 0.86 L 100,0.86" stroke="#eee" strokeWidth="1.5" fillOpacity="0"></path>
-                    <path d = "M 0 , 0.86 L 100,0.86" stroke="#cc7722" strokeWidth="1.5" fillOpacity="0" style={{strokeDasharray:'100,100', strokeDashoffset: '10'}}></path>
+                    <path d = "M 0 , 0.86 L 100,0.86" stroke="#cc7722" strokeWidth="1.5" fillOpacity="0" style={{strokeDasharray:'100,100', strokeDashoffset: '30'}}></path>
                 </svg>
             </div>
             <hr/>

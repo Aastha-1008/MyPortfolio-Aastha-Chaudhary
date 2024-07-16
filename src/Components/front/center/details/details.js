@@ -6,6 +6,7 @@ const Details = () => {
         <div className='detailsSection'>
             <div className='educationSection '>
                 <h3>Education</h3>
+                <hr style={{width:'50%',border:'2px solid white',marginLeft:'0px'}}/>
                 <div className='data'>
                     <div className='education'>
                         <div className='degreeName inLine '>
@@ -66,6 +67,7 @@ const Details = () => {
 
             <div className='experienceSection'>
                 <h3>Work Experience</h3>
+                <hr style={{width:'50%',border:'2px solid white',marginLeft:'0px'}}/>
                 <div className='experience block'>
                     <div className='CompanyNameYear inLine'>
                         <h4>Web Developer</h4>

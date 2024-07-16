@@ -1,9 +1,8 @@
 .App{
-    background-color: black;
-    height: 98vh;
+    background-color: white;
+    height: 100vh;
     color: white;
     overflow: hidden;
-    padding: 1rem;
     display: grid;
     grid-template-columns: 3fr 9fr;
 }

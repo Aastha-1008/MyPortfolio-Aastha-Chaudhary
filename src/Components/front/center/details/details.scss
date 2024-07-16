@@ -35,41 +35,45 @@
         display: flex;
         justify-content: center;
     }
-    .educationSection .education {
-        animation: slideright 1s linear 0s 1;
-        margin-bottom: 3rem;
-        padding: 0rem 1rem 0.5rem;
-        border: 1px solid  gray;
-        border-radius: 10px;
-        @keyframes slideright {
-            0% {
-                transform: translateX(-1000px);
+    .educationSection{
+        border-right: 1px solid white;
+        padding-right: 1rem;
+        .education {
+            animation: slideright 1s linear 0s 1;
+            margin-bottom: 3rem;
+            padding: 0rem 1rem 0.5rem;
+            border: 1px solid  gray;
+            border-radius: 10px;
+            @keyframes slideright {
+                0% {
+                    transform: translateX(-1000px);
+                }
+
+                100% {
+                    transform: translateX(0px);
+                }
+
             }
 
-            100% {
-                transform: translateX(0px);
+            .degreeName {
+
+                h4 {
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    color: #ffc107;
+                    margin-top: 0.2rem;
+                }
+
+                h5 {
+                    font-weight: 500;
+                    font-size: 1rem;
+                    margin-top: 1rem;
+                }
             }
 
-        }
-
-        .degreeName {
-
-            h4 {
-                font-size: 1.2rem;
-                font-weight: 700;
-                color: #ffc107;
-                margin-top: 0.2rem;
+            .clgName {
+                margin-top: -2rem;
             }
-
-            h5 {
-                font-weight: 500;
-                font-size: 1rem;
-                margin-top: 1rem;
-            }
-        }
-
-        .clgName {
-            margin-top: -2rem;
         }
     }
 

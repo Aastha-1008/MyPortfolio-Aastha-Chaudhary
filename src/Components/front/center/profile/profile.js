@@ -11,11 +11,12 @@ const Profile = () => {
     return(
         <div className='profileSection'>
             <h3>Coding Profile</h3>
+            <hr className='divider' />
             <div className='profile'>
                 <div className='p'>
                     <div className='image'>
                         <a href="https://leetcode.com/AasthaChaudhary/"><img src={leetcode} alt="coding profile"/></a>
-                    </div>
+                        </div>
                     <div className='profileName'>
                         <h5><a href="https://leetcode.com/AasthaChaudhary/">Leetcode</a></h5>
                     </div>
@@ -71,6 +72,7 @@ const Profile = () => {
                     <Link to="/project" ><h3>Project</h3></Link>
                 </div>
             </div>
+            <hr/>
         </div>
     );
 }
