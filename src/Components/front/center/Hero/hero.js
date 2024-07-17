@@ -4,7 +4,7 @@ import hero from '../../../../Images/hero.png';
 const Hero = () => {
     return(
         <div className='heroSection'>
-        <img src = {hero} />   
+        <img src = {hero} alt="coverPhoto"/>   
         </div>
     );
 }

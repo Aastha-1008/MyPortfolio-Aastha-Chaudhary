@@ -2,8 +2,6 @@ import './myWork.scss';
 import wordpressIndo from '../../../../Images/wordpressIndowomen.PNG';
 import cxloyaltymena from '../../../../Images/cxloyaltymena.PNG';
 import procure from '../../../../Images/Procore.jpg';
-import planning from '../../../../Images/planning.PNG';
-import golfChallenge from '../../../../Images/golfChallenge.PNG';
 import cxloyalty from '../../../../Images/cxloyalty.PNG';
 import mapty from '../../../../Images/mapty.PNG';
 import movix from '../../../../Images/movix.png';
