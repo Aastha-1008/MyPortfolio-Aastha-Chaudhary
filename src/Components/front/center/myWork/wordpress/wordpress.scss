@@ -1,5 +1,30 @@
+@keyframes ltr {
+    0%{
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+@keyframes rtl {
+    0%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+@keyframes dtt {
+    0%{
+        transform: translatey(-500px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
 .wordpressSection{
     text-align: center;
+    
     h1{
         background-color: #ffc107;
         color: black;
@@ -40,6 +65,9 @@
             display: flex;
             column-gap: 3rem;
         }
+        hr , .ProjectNumber-left , .ProjectNumber-right{
+            animation: dtt 1s linear 0s 1;
+        }
         .ProjectNumber-left,.ProjectNumber-right{
             h2{
                 background-color: #16b6df;
@@ -71,6 +99,10 @@
             overflow-x: hidden;
             margin-right: -10%;
             z-index: 8;
+            
+            .projectSection .project{
+                animation: ltr 1s linear 0s 1;
+            }
             .projectSection:nth-child(2n){
                 .project, .ProjectNumber-left h2{
                     background-color: rgb(88, 8, 247);
@@ -83,6 +115,9 @@
             row-gap: 5rem;
             margin-left: -10%;
             z-index: 8;
+            .projectSection .project{
+                animation: rtl 1s linear 0s 1;
+            }
             .projectSection:nth-child(n){
                 .project, .ProjectNumber-right h2{
                     background-color: rgb(8, 24, 247);
