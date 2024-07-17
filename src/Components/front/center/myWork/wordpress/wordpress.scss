@@ -36,13 +36,27 @@
         margin-right: 4rem;
         padding: 10rem 3rem;
         column-gap: 2rem;
+        .projectSection{
+            display: flex;
+            column-gap: 3rem;
+        }
+        .ProjectNumber-left,.ProjectNumber-right{
+            h2{
+                background-color: #16b6df;
+                color: white;
+                border: 3px solid black;
+                border-radius: 50%;
+                padding: 1rem;
+            }
+            
+        }
         .project{
             scale: 0.98;
             max-height: 25rem;
             padding: 1rem 0.8rem;
             background-color: #16b6df;
             border-radius: 10px;
-            margin-bottom: 5rem;
+            margin-bottom: 8rem;
             .thumbnail img{
                 width: 100%;
                 border-radius: 10px 10px 0px 0px;
@@ -55,20 +69,29 @@
         }
         .leftSideProject{
             overflow-x: hidden;
-            row-gap: 3rem;
-            .project:nth-child(2n){
-                background-color: rgb(88, 8, 247);
+            margin-right: -10%;
+            z-index: 8;
+            .projectSection:nth-child(2n){
+                .project, .ProjectNumber-left h2{
+                    background-color: rgb(88, 8, 247);
+                }
             }
         }
         .rightSideProject{
             overflow-x: hidden;
-            margin-top: 10rem;
-            row-gap: 3rem;
-            .project:nth-child(1n){
-                background-color: rgb(8, 24, 247);
+            margin-top: 13rem;
+            row-gap: 5rem;
+            margin-left: -10%;
+            z-index: 8;
+            .projectSection:nth-child(n){
+                .project, .ProjectNumber-right h2{
+                    background-color: rgb(8, 24, 247);
+                }
             }
-            .project:nth-child(2n){
-                background-color: purple;
+            .projectSection:nth-child(2n){
+                .project, .ProjectNumber-right h2{
+                    background-color: purple;
+                }
             }
         }
     }
